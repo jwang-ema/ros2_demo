@@ -1,0 +1,6 @@
+PublisherNode;lib/libpublisher_node_component.so
+SubscriberNode;lib/libsubscriber_node_component.so
+ServiceNode;lib/libservice_node_component.so
+ClientNode;lib/libclient_node_component.so
+TF2Publisher;lib/libtf2_publisher_component.so
+TF2Listener;lib/libtf2_listener_component.so

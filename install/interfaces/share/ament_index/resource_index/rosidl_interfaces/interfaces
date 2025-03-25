@@ -1,0 +1,6 @@
+msg/Num.idl
+msg/Num.msg
+srv/Myimage.idl
+srv/Myimage.srv
+srv/Myimage_Request.msg
+srv/Myimage_Response.msg

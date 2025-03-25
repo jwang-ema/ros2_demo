@@ -1,0 +1,143 @@
+[0.005s] Invoking command in '/home/jwang/jwang/ros2_demo/build/composable_node_demo': AMENT_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(jwang) LD_LIBRARY_PATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jwang/jwang/ros2_demo/src/composable_node_demo -DCMAKE_INSTALL_PREFIX=/home/jwang/jwang/ros2_demo/install/composable_node_demo
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.085s] -- The CXX compiler identification is GNU 11.4.0
+[0.089s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.237s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.465s] -- Found Python3: /home/jwang/anaconda3/envs/jwang/bin/python3 (found version "3.8.20") found components: Interpreter 
+[0.514s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.537s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.539s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.658s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Looking for pthread.h
+[0.779s] -- Looking for pthread.h - found
+[0.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.848s] -- Found Threads: TRUE  
+[0.878s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.944s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.951s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.952s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.952s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.953s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.961s] -- Found interfaces: 0.0.0 (/home/jwang/jwang/ros2_demo/install/interfaces/share/interfaces/cmake)
+[0.982s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.001s] -- Found CUDA: /usr/local/cuda (found suitable exact version "12.4") 
+[1.013s] -- Found OpenCV: /usr/local (found version "4.11.0") 
+[1.072s] -- Configuring done
+[1.107s] -- Generating done
+[1.119s] -- Build files have been written to: /home/jwang/jwang/ros2_demo/build/composable_node_demo
+[1.127s] Invoked command in '/home/jwang/jwang/ros2_demo/build/composable_node_demo' returned '0': AMENT_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(jwang) LD_LIBRARY_PATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jwang/jwang/ros2_demo/src/composable_node_demo -DCMAKE_INSTALL_PREFIX=/home/jwang/jwang/ros2_demo/install/composable_node_demo
+[1.128s] Invoking command in '/home/jwang/jwang/ros2_demo/build/composable_node_demo': AMENT_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(jwang) LD_LIBRARY_PATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jwang/jwang/ros2_demo/build/composable_node_demo -- -j16 -l16
+[1.176s] [ 12%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/rclcpp_components/node_main_publisher_node.cpp.o[0m
+[1.176s] [ 12%] [32mBuilding CXX object CMakeFiles/tf2_listener.dir/rclcpp_components/node_main_tf2_listener.cpp.o[0m
+[1.176s] [ 12%] [32mBuilding CXX object CMakeFiles/publisher_node_component.dir/src/publisher_node.cpp.o[0m
+[1.177s] [ 16%] [32mBuilding CXX object CMakeFiles/tf2_publisher_component.dir/src/tf2_publisher.cpp.o[0m
+[1.177s] [ 20%] [32mBuilding CXX object CMakeFiles/service_node_component.dir/src/service_node.cpp.o[0m
+[1.177s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/rclcpp_components/node_main_subscriber_node.cpp.o[0m
+[1.177s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_node_component.dir/src/subscriber_node.cpp.o[0m
+[1.178s] [ 33%] [32mBuilding CXX object CMakeFiles/tf2_publisher.dir/rclcpp_components/node_main_tf2_publisher.cpp.o[0m
+[1.178s] [ 37%] [32mBuilding CXX object CMakeFiles/client_node_component.dir/src/client_node.cpp.o[0m
+[1.179s] [ 45%] [32mBuilding CXX object CMakeFiles/client_node.dir/rclcpp_components/node_main_client_node.cpp.o[0m
+[1.179s] [ 45%] [32mBuilding CXX object CMakeFiles/service_node.dir/rclcpp_components/node_main_service_node.cpp.o[0m
+[1.179s] [ 50%] [32mBuilding CXX object CMakeFiles/tf2_listener_component.dir/src/tf2_listener.cpp.o[0m
+[3.297s] [ 54%] [32m[1mLinking CXX executable subscriber_node[0m
+[3.418s] [ 58%] [32m[1mLinking CXX executable tf2_publisher[0m
+[3.433s] [ 58%] Built target subscriber_node
+[3.597s] [ 58%] Built target tf2_publisher
+[4.020s] [ 62%] [32m[1mLinking CXX executable service_node[0m
+[4.074s] [ 66%] [32m[1mLinking CXX executable client_node[0m
+[4.107s] [ 66%] Built target service_node
+[4.158s] [ 66%] Built target client_node
+[4.269s] [ 70%] [32m[1mLinking CXX executable publisher_node[0m
+[4.353s] [ 70%] Built target publisher_node
+[4.374s] [ 75%] [32m[1mLinking CXX shared library libtf2_publisher_component.so[0m
+[4.401s] [ 79%] [32m[1mLinking CXX shared library libpublisher_node_component.so[0m
+[4.512s] [ 79%] Built target tf2_publisher_component
+[4.550s] [ 83%] [32m[1mLinking CXX executable tf2_listener[0m
+[4.550s] [ 83%] Built target publisher_node_component
+[4.592s] [ 87%] [32m[1mLinking CXX shared library libtf2_listener_component.so[0m
+[4.630s] [ 87%] Built target tf2_listener
+[4.704s] [ 87%] Built target tf2_listener_component
+[6.023s] [ 91%] [32m[1mLinking CXX shared library libclient_node_component.so[0m
+[6.145s] [ 91%] Built target client_node_component
+[6.275s] [ 95%] [32m[1mLinking CXX shared library libservice_node_component.so[0m
+[6.461s] [ 95%] Built target service_node_component
+[9.811s] [100%] [32m[1mLinking CXX shared library libsubscriber_node_component.so[0m
+[10.220s] [100%] Built target subscriber_node_component
+[10.230s] Invoked command in '/home/jwang/jwang/ros2_demo/build/composable_node_demo' returned '0': AMENT_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(jwang) LD_LIBRARY_PATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jwang/jwang/ros2_demo/build/composable_node_demo -- -j16 -l16
+[10.231s] Invoking command in '/home/jwang/jwang/ros2_demo/build/composable_node_demo': AMENT_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(jwang) LD_LIBRARY_PATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jwang/jwang/ros2_demo/build/composable_node_demo
+[10.239s] -- Install configuration: ""
+[10.239s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/publisher_node
+[10.239s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/publisher_node" to ""
+[10.239s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/subscriber_node
+[10.240s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/subscriber_node" to ""
+[10.240s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/service_node
+[10.240s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/service_node" to ""
+[10.240s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/client_node
+[10.240s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/client_node" to ""
+[10.240s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/tf2_publisher
+[10.240s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/tf2_publisher" to ""
+[10.240s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/tf2_listener
+[10.241s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/composable_node_demo/tf2_listener" to ""
+[10.241s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libpublisher_node_component.so
+[10.242s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libpublisher_node_component.so" to ""
+[10.242s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libsubscriber_node_component.so
+[10.246s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libsubscriber_node_component.so" to ""
+[10.246s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libservice_node_component.so
+[10.247s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libservice_node_component.so" to ""
+[10.247s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libclient_node_component.so
+[10.247s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libclient_node_component.so" to ""
+[10.247s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libtf2_publisher_component.so
+[10.248s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libtf2_publisher_component.so" to ""
+[10.248s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libtf2_listener_component.so
+[10.249s] -- Set runtime path of "/home/jwang/jwang/ros2_demo/install/composable_node_demo/lib/libtf2_listener_component.so" to ""
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/launch
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/launch/demo_launch.py
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/param
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/param/demo_params.yaml
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/ament_index/resource_index/package_run_dependencies/composable_node_demo
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/ament_index/resource_index/parent_prefix_path/composable_node_demo
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/environment/ament_prefix_path.sh
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/environment/ament_prefix_path.dsv
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/environment/path.sh
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/environment/path.dsv
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/local_setup.bash
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/local_setup.sh
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/local_setup.zsh
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/local_setup.dsv
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/package.dsv
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/ament_index/resource_index/packages/composable_node_demo
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/ament_index/resource_index/rclcpp_components/composable_node_demo
+[10.249s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_publisher_node_componentExport.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_publisher_node_componentExport-noconfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_subscriber_node_componentExport.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_subscriber_node_componentExport-noconfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_service_node_componentExport.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_service_node_componentExport-noconfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_client_node_componentExport.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_client_node_componentExport-noconfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_tf2_publisher_componentExport.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_tf2_publisher_componentExport-noconfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_tf2_listener_componentExport.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/export_tf2_listener_componentExport-noconfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/ament_cmake_export_targets-extras.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/composable_node_demoConfig.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/cmake/composable_node_demoConfig-version.cmake
+[10.250s] -- Installing: /home/jwang/jwang/ros2_demo/install/composable_node_demo/share/composable_node_demo/package.xml
+[10.252s] Invoked command in '/home/jwang/jwang/ros2_demo/build/composable_node_demo' returned '0': AMENT_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jwang/jwang/ros2_demo/install/interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(jwang) LD_LIBRARY_PATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jwang/jwang/ros2_demo/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jwang/jwang/ros2_demo/build/composable_node_demo
