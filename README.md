@@ -38,13 +38,15 @@
 │   │   |	└── ...
 ```
 
-1、编译并运行
+1、项目克隆
 
-​	`cd $workspace && colcon build && . install/setup.sh ` 
+​	`git clone git@github.com:jwang-ema/ros2_demo.git`
+
+2、编译运行
+
+​	`cd ros2_demo && colcon build && . install/setup.sh ` 
 
 ​	` ros2 launch composable_node_demo demo_launch.py `
-
-​	`workspace`为实际的工作目录
 
 终端显示部分结果如下：
 
