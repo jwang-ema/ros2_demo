@@ -1,1 +1,0 @@
-sensor_msgs/Image client_image
